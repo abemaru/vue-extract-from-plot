@@ -13,8 +13,9 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "vue": "^3.2.41",
-    "vue-plotly": "^1.1.0"
+    "@types/plotly.js": "^2.12.8",
+    "plotly.js-dist-min": "^2.16.1",
+    "vue": "^3.2.41"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",

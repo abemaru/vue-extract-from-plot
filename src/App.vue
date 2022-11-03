@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from "./components/HelloWorld.vue";
 import TheWelcome from "./components/TheWelcome.vue";
+import Plot from "./components/PlotSampleData.vue";
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import TheWelcome from "./components/TheWelcome.vue";
   </header>
 
   <main>
+		<Plot />
     <TheWelcome />
   </main>
 </template>
