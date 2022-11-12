@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "@types/plotly.js": "^2.12.8",
-    "plotly.js-dist-min": "^2.16.1",
+    "d3-color": "^3.1.0",
+    "plotly.js-dist-min": "^2.16.2",
     "vue": "^3.2.41"
   },
   "devDependencies": {
